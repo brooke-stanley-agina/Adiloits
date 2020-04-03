@@ -1,0 +1,419 @@
+*, body{
+    font-family: 'Baloo Thambi 2', cursive;
+}
+
+/* <!-- navigation --> */
+#nav{
+    display:  flex;
+    flex-direction: row;
+    justify-content: space-around;
+    overflow: hidden;
+    /* float: right; */
+    
+}
+
+#log {
+    margin-left: 80px;
+    font-size: 30px;
+    font-weight: 800;
+
+}
+
+#navigation{
+    float: right;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+ul li{
+    padding-left: 60px;
+    text-decoration: none;
+}
+
+ul li a{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+.sticky + .main {
+padding-top: 60px;
+}
+
+.sticky + .main-1 {
+padding-top: 60px;
+}
+
+
+/* main */
+
+
+main{
+    /* padding-top: 20px; */
+    padding-left: 400px;
+    align-items: center;
+}
+
+#text{
+    margin-top: 20px;
+    width: 400px;
+    align-items: center;
+    text-align: center;
+}
+
+#container{
+    padding-top: 60px;
+
+}
+
+#card{
+    margin-top: 15px;
+    max-width: 700px;
+    height: 700px;
+    align-items: center;
+    box-shadow: black;
+    margin-bottom: 50px;
+}
+
+.span{
+    padding-top: 20px;
+    color: yellowgreen;
+    font-weight: 800;
+    font-size: 20px;
+}
+.buttons{
+    padding: 30px;
+}
+#btn{
+    margin: 40px;
+}
+
+.exit{
+    color: yellowgreen;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+#emails{
+    align-items: center;
+    padding-top: 20px;
+}
+
+.label{
+    padding: 10px;
+    font-size: 20px;
+}
+
+#email{
+    padding: 15px;
+    border: 2px solid yellowgreen;
+    border-radius: 10px;
+    margin-left: 33px;
+}
+
+#password{
+    padding: 15px;
+    border: 2px solid yellowgreen;
+    border-radius: 10px;
+}
+
+/* home-page */
+.main{
+    padding-top: 20px;
+    background-color: whitesmoke;
+}
+#card-1{
+    width: 500px;
+    height: 300px;
+    margin-left: -100px;
+    align-items: center;
+}
+#card-2{
+    width: 500px;
+    height: 300px;
+    margin-left: 100px;
+}
+
+#containers{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-left: -50px;
+    margin-top: 50px;
+}
+
+.paragraphing{
+  width: 400px;
+  height: 250px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+}
+
+#card-3{
+    width: 300px;
+    height: 300px;
+    /* margin-left: -100px; */
+    justify-content: space-between;
+    margin: 20px;
+}
+
+#containers-2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-left: -120px;
+    margin-top: 70px;
+    align-items: center;
+}
+
+.svg{
+    width: 80px;
+    height: 70px;
+    color: greenyellow;
+    margin-left: 110px;
+    margin-top: 40px;
+}
+
+.parp{
+    margin-bottom: 80px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+#footer{
+    background-color: black;
+    margin-top: 40px;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    height: 500px;
+}
+
+/* solutions */
+#main-2{
+    width: 100%;
+    margin-top: 50px;
+    align-items: center;
+}
+#tables{
+    width: 900px;
+    height: 3s00px;
+}
+
+#ruler{
+    max-width: 300px;
+    width: 100%;
+}
+
+#content{
+    align-content: center;
+    max-width: 300px;
+    width: 100%;
+    height: 200px;
+}
+
+#cont{
+    max-width: 300px;
+    width: 100%;
+}
+
+#card-btn{
+    width: 1300px;
+    height: 350px;
+    margin-top: 30px;
+    margin-left: 40px;
+    position: relative;
+    z-index: -1;
+    margin-left: -200px;
+}
+
+#btn-1{
+    width: 170px;
+    border-radius: 10px;
+    margin: 60px;
+}
+
+.select{
+    padding-top: 30px;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.sol{
+    padding-top: 30px;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.solutions{
+    margin-top: 30px;
+    margin-left: -170px;
+}
+
+#card-btn-1{
+    width: 400px;
+    height: 500px;
+    position: relative;
+    align-content: center;
+    z-index: -1;
+    margin-top: 30px;
+    margin-left: -170px;
+    align-items: center
+}
+
+#card-btn-2{
+    width: 400px;
+    height: 500px;
+    position: relative;
+    align-content: center;
+    z-index: -1;
+    margin-top: 30px;
+    margin-left: 290px;
+    margin-top: -450px;
+    align-items: center
+}
+
+#card-btn-3{
+    width: 400px;
+    height: 500px;
+    position: relative;
+    align-content: center;
+    z-index: -1;
+    margin-left: 750px;
+    margin-top: -550px;
+    align-items: center
+}
+
+#card-btn-4{
+    width: 400px;
+    height: 500px;
+    position: relative;
+    align-content: center;
+    z-index: -1;
+    margin-top: 80px;
+    margin-left: -100px;
+    align-items: center
+    
+}
+
+#card-btn-5{
+    width: 400px;
+    height: 500px;
+    position: relative;
+    align-content: center;
+    z-index: -1;
+    margin-top: 30px;
+    margin-left: 350px;
+    margin-top: -510px;
+    align-items: center
+}
+
+#card-btn-6{
+    width: 400px;
+    height: 500px;
+    position: relative;
+    align-content: center;
+    z-index: -1;
+    margin-top: 30px;
+    margin-left: 800px;
+    margin-top: -490px;
+    align-items: center
+}
+
+.title{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.content-2{
+    margin-top: 30px;
+    align-content: center;
+    margin-left: 10px;
+    margin-right: 10px;text-align: center;
+}
+
+.get{
+    color: blue;
+}
+
+.tl{
+    margin-left: 350px;
+    margin-top: 70px;
+}
+.tn{
+    width: 900px;
+    height: 500px;
+    /* border: 0.1px solid grey; */
+    display: flex;
+}
+
+.tn-1{
+    width: 450px;
+    height: 500px;
+    border: 0.1px solid whitesmoke;
+}
+
+#bt{
+    width: 900px;
+}
+
+#bt-1{
+    width: 300px;
+    text-align: center;
+}
+
+a.ak{
+    width: 300px;
+    text-decoration: none;
+    color: black;
+}
+
+
+a.ak :hover{
+    fill: blue;
+    pointer-events: fill;
+}
+
+.input{
+    margin-top: 30px;
+    width: 800px;
+    margin-left: 400px;
+    margin-bottom: 30px;
+}
+
+.title-2{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.lorems{
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+#comments{
+    margin-top: 40px;
+    width: 700px;
+}
+
+.comment-section{
+    margin-left: 430px;
+}
+
+#name{
+    color: blue;
+}
